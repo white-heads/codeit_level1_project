@@ -29,3 +29,6 @@ from sklearn.model_selection import train_test_split
 
 # 설정 파일
 from omegaconf import OmegaConf
+
+# 코랩
+import ipynb

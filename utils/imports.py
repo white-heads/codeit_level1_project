@@ -4,6 +4,7 @@ import time
 import json
 import random
 import collections
+import shutil
 
 # 서드파티 라이브러리
 import numpy as np

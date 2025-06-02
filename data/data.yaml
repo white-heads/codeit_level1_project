@@ -73,4 +73,6 @@ names:
   - 브린텔릭스정 20mg
   - 조인스정 200mg
 nc: 73
+test: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/data/test/images
+val: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/data/val/images
 train: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/data/train/images

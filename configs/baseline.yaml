@@ -15,16 +15,20 @@ train:
   batch: 16
   cache: ram
   seed: 42
-  multi_scale: True
   close_mosaic: 10
-  lr0: 1e-5
-  lrf: 1e-2
+  lr0: 0.01
+  lrf: 0.001
   hsv_v: 0.5
   hsv_s: 0.5
   hsv_h: 0.5
+  best_hyp_path: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints/tune2/best_hyperparameters.yaml
 
 val:
-  best_pt: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints/grid_search/lr0_0.0001_lrf_0.01_batch_16/train2/weights/best.pt
-  batch: 8
+  best_pt: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints/train55/weights/best.pt
+  batch: 16
   imgsz: 640
  
+inference:
+  data: ${colab.root}/data/test/images
+  save_path: ${colab.root}/data/test/result
+  best_pt: ${colab.root}/checkpoints/train55/weights/best.pt

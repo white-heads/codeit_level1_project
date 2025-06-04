@@ -4,3 +4,4 @@
 *.txt
 *.npy
 *.json
+.DS_Store

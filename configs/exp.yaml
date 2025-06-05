@@ -1,0 +1,3 @@
+val:
+  batch: 16
+  imgsz: 640

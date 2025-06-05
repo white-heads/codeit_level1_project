@@ -1,34 +1,15 @@
-colab:
-  root: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project
-  data_yaml: ${colab.root}/data/data.yaml
-  yolov8: ${colab.root}/models/yolov8n.pt
-  project: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints
-
-local:
-  root: /Users/eojin-kim/Documents/ai_project/beginner_project
-  data_yaml: ${local.root}/data/data.yaml
-  yolov8: ${local.root}/models/yolov8n.pt
-
-train:
-  epochs: 60
-  imgsz: 640
-  batch: 16
-  cache: ram
-  seed: 42
-  close_mosaic: 10
-  lr0: 0.01
-  lrf: 0.001
-  hsv_v: 0.5
-  hsv_s: 0.5
-  hsv_h: 0.5
-  best_hyp_path: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints/tune2/best_hyperparameters.yaml
-
-val:
-  best_pt: /content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/beginner_project/checkpoints/train55/weights/best.pt
-  batch: 16
-  imgsz: 640
- 
-inference:
-  data: ${colab.root}/data/test/images
-  save_path: ${colab.root}/data/test/result
-  best_pt: ${colab.root}/checkpoints/train55/weights/best.pt
+epochs: 60
+imgsz: 640
+batch: 16
+cache: ram
+seed: 42
+close_mosaic: 10
+lr0: 0.01
+lrf: 0.001
+hsv_v: 0.5
+hsv_s: 0.5
+hsv_h: 0.5
+momentum: 0.9
+box: 6
+flipud: 0.1
+fliplr: 0.1

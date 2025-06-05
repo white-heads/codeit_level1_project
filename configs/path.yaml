@@ -1,0 +1,20 @@
+root: /content/drive/MyDrive/codeit_level1_project
+data_yaml: ${root}/data/data.yaml
+
+model:
+  yolov8n: ${root}/models/yolov8n.pt
+  yolov8m: ${root}/models/yolov8m.pt
+
+annotations_path: ${root}/copy_data/train/annotations
+
+best_pt: ${colab.root}/checkpoints/train83/weights/best.pt
+
+img_data:
+  test: ${colab.root}/data/test/images
+  train: ${colab.root}/data/train/images
+  val: ${colab.root}/data/val/images
+
+predict_results:
+  result: ${colab.root}/result
+  labels: ${colab.root}/result/predict/labels
+  save_csv: ${colab.root}/result/kaggle

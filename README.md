@@ -2,7 +2,7 @@
 ## [kaggle]코드잇 스프린트 AI 엔지니어링 2기 초급 프로젝트
 이번 프로젝트의 목표는 사진 속에 있는 최대 4개의 알약의 이름(클래스)과 위치(바운딩 박스)를 검출하는 것입니다.
 
-팀명: white heads(1팀)
+white heads(1팀)
 
 ## 디렉토리 아키텍쳐
 ```
@@ -32,16 +32,16 @@ my_object_detection_project/
 ├── experiments/                  # 실험용(다양한 하이퍼파라미터 실험) 폴더
 │   ├── name1/                    # 팀원 1
 │   │   ├── hyparameter.yaml      # 실험 파라미터 저장
-│   │   ├── results/              # 실험 결과(결과 그래프)
+│   │   ├── results              # 실험 결과(결과 그래프)
 │   │   └── best_model.pt         # 베스트 모델 가중치
 │   ├── name2/                    # 팀원 2
 │       └── …
 └── results/                      # 베스트 모델 학습 결과 폴더
-    ├── predict
-        └── train
-	    ├── exp_1
-	    ├── exp_2
-	    └── …
+    ├── predict/
+    └── train/
+        ├── exp_1
+        ├── exp_2
+        └── …
 ```
 
 ## 사용한 데이터

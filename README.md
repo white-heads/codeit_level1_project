@@ -5,7 +5,7 @@
 팀명: white heads(1팀)
 
 ## 디렉토리 아키텍쳐
-
+```
 my_object_detection_project/
 ├── README.md
 │
@@ -37,12 +37,12 @@ my_object_detection_project/
 │   └── …/                        # 팀원 2
 │       └── …
 └── results/                      # 베스트 모델 학습 결과 폴더
-        ├── predict
+    ├── predict
         └── train
-	   ├── exp_1
-	   ├── exp_2
-	   └── …
-	
+	├── exp_1
+	├── exp_2
+	└── …
+```
 
 ## 사용한 데이터
 원본 데이터 출처: Ai Hub 경구약제 이미지 데이터를 가공

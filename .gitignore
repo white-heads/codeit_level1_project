@@ -1,0 +1,7 @@
+/ai02-level1-project
+*.png
+*.jpg
+*.txt
+*.npy
+*.json
+.DS_Store

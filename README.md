@@ -39,14 +39,16 @@ my_object_detection_project/
 └── results/                      # 베스트 모델 학습 결과 폴더
     ├── predict/
     └── train/
-        ├── exp_1
-        ├── exp_2
+        ├── exp_1/
+        ├── exp_2/
         └── …
 ```
 
 ## 사용한 데이터
+### 데이터 출처
 원본 데이터 출처: Ai Hub 경구약제 이미지 데이터를 가공
 추가 데이터 출처: Ai Hub에 있는 데이터중 원본 데이터 속 73개의 클래스만 포함하고 있는 데이터를 추가
+### 원본 데이터 구조
 train_images - 훈련 데이터(이미지)
 train_annotations - 훈련 데이터(annotation)
 test_images - 테스트 데이터(이미지)

@@ -19,8 +19,8 @@ my_object_detection_project/
 │   └── path.yaml                 # path에 대해 설정한 파일
 │
 ├── utils/                        # 각종 유틸리티 코드
-│   ├── data_utils.py             # 데이터 로드, 분할, 증강 관련 함수
-│   └── split_data.py             # train, val 파일 분리
+│   ├── data_utils.ipynb          # 데이터 로드, 분할, 증강 관련 함수
+│   └── split_data.ipynb          # train, val 파일 분리
 ├── models/
 │   ├── yolo/                     # YOLO best model 스크립트
 │   │   ├── YOLOv8.ipynb          # YOLOv8 모델 스크립트   
@@ -30,18 +30,18 @@ my_object_detection_project/
 │       ├── yolov8s.pt
 │       └── yolo11n.pt
 ├── experiments/                  # 실험용(다양한 하이퍼파라미터 실험) 폴더
-│   ├── Cheolhyeon/               # 팀원 1
+│   ├── name1/                    # 팀원 1
 │   │   ├── hyparameter.yaml      # 실험 파라미터 저장
 │   │   ├── results/              # 실험 결과(결과 그래프)
 │   │   └── best_model.pt         # 베스트 모델 가중치
-│   └── …/                        # 팀원 2
+│   ├── name2/                    # 팀원 2
 │       └── …
 └── results/                      # 베스트 모델 학습 결과 폴더
     ├── predict
         └── train
-	├── exp_1
-	├── exp_2
-	└── …
+	    ├── exp_1
+	    ├── exp_2
+	    └── …
 ```
 
 ## 사용한 데이터

@@ -18,7 +18,10 @@
 
 ### PDF:
 
-### 보고서: 발표 PDF로 대체.
+### 보고서: 발표 PDF로 대체
+
+## DATA 및 용량이 큰 자료
+### LINK: https://drive.google.com/drive/folders/1J5JiHwfQ3bnowWdmZoiNV7gGs9-GPEbo?usp=drive_link
 
 ## 디렉토리 아키텍쳐
 

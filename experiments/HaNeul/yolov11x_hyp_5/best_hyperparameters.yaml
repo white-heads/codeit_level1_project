@@ -1,0 +1,12 @@
+# 20/20 iterations complete ✅ (20479.74s)
+# Results saved to /content/drive/MyDrive/codeit_level1_project/yolo11_hyp_0609/hyp
+# Best fitness=0.96924 observed at iteration 1
+# Best fitness metrics are {'metrics/precision(B)': 0.98366, 'metrics/recall(B)': 0.98426, 'metrics/mAP50(B)': 0.98094, 'metrics/mAP50-95(B)': 0.96794, 'val/box_loss': 0.00645, 'val/cls_loss': 0.1821, 'val/dfl_loss': 0.83634, 'fitness': 0.96924}
+# Best fitness model is /content/drive/MyDrive/codeit_level1_project/yolo11_hyp_0609/train
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+box: 0.2
+cls: 0.5

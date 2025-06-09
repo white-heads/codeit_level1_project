@@ -26,6 +26,7 @@
 
 ## DATA 및 용량이 큰 자료
 ### LINK: https://drive.google.com/drive/folders/1J5JiHwfQ3bnowWdmZoiNV7gGs9-GPEbo?usp=drive_link
+6/30 삭제 예정
 
 ---
 

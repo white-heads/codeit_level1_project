@@ -1,0 +1,8 @@
+/ai02-level1-project
+*.jpg
+*.txt
+*.npy
+.DS_Store
+data/
+*.code-workspace
+*.pt

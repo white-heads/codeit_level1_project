@@ -4,6 +4,10 @@
 
 white heads(1팀)
 
+## 발표자료
+### PDF: 
+### 보고서: 발표 PDF로 대체.
+
 ## 디렉토리 아키텍쳐
 ```
 my_object_detection_project/
@@ -56,8 +60,6 @@ train_annotations - 훈련 데이터(annotation)
 
 test_images - 테스트 데이터(이미지)
 
-<hr style="border: 0; border-top: 3px double #000; height: 0;">
-
 ## 1팀 Daily-Report
 ### **김어진**  
 LINK: https://efficient-saver-88c.notion.site/Daily-1f1880186a9f800db735ef0730c4d450?pvs=4
@@ -83,4 +85,5 @@ LINK: https://www.notion.so/Daily-1fb9f030290b800a8306d65db9578758?pvs=4
 LINK: https://www.notion.so/1fbe3ffbb655803d8cffe3ab65910d5f?pvs=4
 
 ---
+
 

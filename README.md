@@ -14,6 +14,9 @@
 
 ![경구 약제 이미지 검출 사진](./image/image-1.png)
 
+---
+---
+
 ## 발표자료
 
 ### PDF:
@@ -22,6 +25,9 @@
 
 ## DATA 및 용량이 큰 자료
 ### LINK: https://drive.google.com/drive/folders/1J5JiHwfQ3bnowWdmZoiNV7gGs9-GPEbo?usp=drive_link
+
+---
+---
 
 ## 디렉토리 아키텍쳐
 
@@ -63,6 +69,8 @@ my_object_detection_project/
         ├── exp_2/
         └── …
 ```
+---
+---
 
 ## 사용한 데이터
 
@@ -79,6 +87,9 @@ train_images - 훈련 데이터(이미지)
 train_annotations - 훈련 데이터(annotation)
 
 test_images - 테스트 데이터(이미지)
+
+---
+---
 
 ## 1팀 Daily-Report
 

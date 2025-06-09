@@ -56,7 +56,8 @@ train_annotations - 훈련 데이터(annotation)
 
 test_images - 테스트 데이터(이미지)
 
-===
+<hr style="border: 0; border-top: 3px double #000; height: 0;">
+
 ## 1팀 Daily-Report
 ### **김어진**  
 LINK: https://efficient-saver-88c.notion.site/Daily-1f1880186a9f800db735ef0730c4d450?pvs=4

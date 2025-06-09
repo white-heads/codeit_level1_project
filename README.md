@@ -14,8 +14,7 @@
 
 ![경구 약제 이미지 검출 사진](./image/image-1.png)
 
----
----
+<hr style="height: 5px; background-color: black; border: none;">
 
 ## 발표자료
 

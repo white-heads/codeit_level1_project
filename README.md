@@ -18,7 +18,7 @@
 
 ## 발표자료
 
-### PDF: ./reports/초급프로젝트_1팀.pdf
+### PDF: https://github.com/white-heads/codeit_level1_project/raw/main/reports/초급프로젝트_1팀.pdf
 
 ### 보고서: 발표 PDF로 대체
 
